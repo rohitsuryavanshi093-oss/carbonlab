@@ -1,0 +1,100 @@
+CarbonLab .gitignore
+
+Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+API keys / credentials
+
+credentials.json
+service-account.json
+*.pem
+*.key
+
+Python
+
+pycache/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+ENV/
+
+Python testing / tooling
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+Jupyter
+
+.ipynb_checkpoints/
+
+Node / JavaScript
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+Frontend build files
+
+dist/
+build/
+.next/
+.nuxt/
+.output/
+
+Local databases
+
+*.sqlite
+*.sqlite3
+*.db
+
+Local raw research data
+
+research/data/raw/
+
+Generated experiment runs
+
+research/experiments/runs/
+
+Logs
+
+*.log
+
+Temporary files
+
+*.tmp
+*.temp
+*.bak
+*.cache
+
+IDE / editors
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+Operating system files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+Archives / large local files
+
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
